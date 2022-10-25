@@ -24,21 +24,21 @@ import edu.wpi.first.math.util.Units;
  */
 public final class Constants {
         public static final class Drivetrain {
-                public static final int FRONT_LEFT_MODULE_DRIVE = 0;
-                public static final int FRONT_LEFT_MODULE_STEER = 0;
-                public static final int FRONT_LEFT_MODULE_STEER_ENCODER = 0;
+                public static final int FRONT_LEFT_MODULE_DRIVE = 7;
+                public static final int FRONT_LEFT_MODULE_STEER = 8;
+                public static final int FRONT_LEFT_MODULE_STEER_ENCODER = 12;
         
-                public static final int FRONT_RIGHT_MODULE_DRIVE = 0;
-                public static final int FRONT_RIGHT_MODULE_STEER = 0;
-                public static final int FRONT_RIGHT_MODULE_STEER_ENCODER = 0;
+                public static final int FRONT_RIGHT_MODULE_DRIVE = 5;
+                public static final int FRONT_RIGHT_MODULE_STEER = 6;
+                public static final int FRONT_RIGHT_MODULE_STEER_ENCODER = 11;
         
-                public static final int BACK_LEFT_MODULE_DRIVE = 0;
-                public static final int BACK_LEFT_MODULE_STEER = 0;
-                public static final int BACK_LEFT_MODULE_STEER_ENCODER = 0;
+                public static final int BACK_LEFT_MODULE_DRIVE = 3;
+                public static final int BACK_LEFT_MODULE_STEER = 4;
+                public static final int BACK_LEFT_MODULE_STEER_ENCODER = 10;
         
-                public static final int BACK_RIGHT_MODULE_DRIVE = 0;
-                public static final int BACK_RIGHT_MODULE_STEER = 0;
-                public static final int BACK_RIGHT_MODULE_STEER_ENCODER = 0;
+                public static final int BACK_RIGHT_MODULE_DRIVE = 1;
+                public static final int BACK_RIGHT_MODULE_STEER = 2;
+                public static final int BACK_RIGHT_MODULE_STEER_ENCODER = 9;
         
                 public static final int PIGEON_IMU = 0;
 
